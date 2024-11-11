@@ -1,0 +1,27 @@
+{
+  "name": "wtm-hackathon-ivf-bot",
+  "main": "index.js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-package": "rm -rf ./dist && rm -f function.zip && tsc && zip -r function.zip ./dist package.json package-lock.json",
+    "start-local": "deno run --allow-net --allow-read --allow-run --allow-env --allow-write --env-file --unstable-sloppy-imports --watch src/index.ts",
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@google-cloud/functions-framework": "^3.4.2",
+    "@google-cloud/tasks": "^5.5.1",
+    "@google/generative-ai": "^0.21.0",
+    "@googleapis/docs": "^3.3.0",
+    "@googleapis/drive": "^8.14.0",
+    "google-auth-library": "^9.14.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "@types/node-telegram-bot-api": "^0.64.7"
+  }
+}
