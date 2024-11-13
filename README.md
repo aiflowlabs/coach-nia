@@ -1,9 +1,12 @@
-# Coach Nia is a Telegram bot that offers daily support and encouragement
+![Logo](docs/logo.png)
+
+# Coach Nia is a Telegram bot that offers daily support
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Onboarding](#onboarding)
 - [Dependencies](#dependencies)
 - [Next steps](#next-steps)
 
@@ -20,6 +23,10 @@ The bot is designed to send daily messages to users. The messages are designed
 to be supportive and encouraging, and to help users feel less alone during their
 treatment.
 
+Here is a simple diagram of the bot's architecture:
+
+![Architecture](docs/architecture.png)
+
 ## Features
 
 - Daily messages: The bot sends a daily message to users, offering support and
@@ -33,6 +40,10 @@ treatment.
 - Video: The bot can send video messages to users, offering additional support
   and encouragement. The videos are AI generated and are designed to be
   uplifting and inspiring.
+
+## Onboarding
+
+![Diagarm](docs/diagram.png)
 
 ## Dependencies
 

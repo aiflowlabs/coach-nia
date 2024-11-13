@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build-package": "rm -rf ./dist && rm -f function.zip && tsc && zip -r function.zip ./dist package.json package-lock.json",
-    "start-local": "deno run --allow-net --allow-read --allow-run --allow-env --allow-write --env-file --unstable-sloppy-imports --watch src/index.ts",
+    "start-local": "deno run --allow-net --allow-read --allow-run --allow-env --allow-write --env-file --unstable-sloppy-imports --watch src/index.ts"
   },
   "author": "",
   "license": "ISC",
